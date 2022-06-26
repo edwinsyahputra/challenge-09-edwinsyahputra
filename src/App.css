@@ -1,4 +1,54 @@
+body {
+  background: rgb(0, 155, 155);
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  font-size: 15px;
+}
+
 .App {
   text-align: center;
   display: flex;
+  flex-direction: column;
+}
+
+.container {
+  border: solid black;
+  padding-top: 20px;
+  align-self: center;
+  padding: 10px 50px;
+}
+
+.wrapper {
+  max-width: 400px;
+  display: flex;
+  flex-direction: row;
+  border-bottom: solid black;
+  padding: 10px;
+}
+
+.image-profile {
+  margin-top: 20px;
+  text-align: center;
+}
+
+.photo-profile {
+  height: 100px;
+  width: 100px;
+  border-radius: 50%;
+}
+
+.data-contact {
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  line-height: 5px;
+  justify-content: center;
+  margin-left: 50px;
+}
+
+.name,
+.phone,
+.email {
+  font-weight: 200;
+  font-size: 20px;
 }
